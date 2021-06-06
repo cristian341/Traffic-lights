@@ -1,0 +1,14 @@
+#green1=LED(4)
+#amber1=LED(17)
+#red1=LED(27)
+#traffic lights 2
+#green2=LED(21)
+#amber2=LED(20)
+#red2=LED(16)
+#traffic lights for pedestions 1
+red_p1=LED(22)
+green_p1=LED(5)
+#traffic lights for pedestions 2
+red_p2=LED(13)
+green_p2=LED(6)
+
