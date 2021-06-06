@@ -31,22 +31,27 @@ def turn_on():
         red_p2.off()
         green_p1.on()
         green_p2.on()
+        sleep(3)
+        lights.amber.on()
+        lights_2.amber.on()
+        sleep(1)
         lights.red.off()
         lights_2.red.off()
 
-        sleep(3)
+        
     elif button.is_pressed:
         exit()
            
     else:
+        lights.amber.off()
+        lights_2.amber.off()
         green_p1.off()
         green_p2.off()
         red_p1.on()
         red_p2.on()
         lights.green.on()  
         lights_2.green.on()
-            #red_p1.on()
-            #red_p2.on()
+            
             
 try:
     if __name__ == "__main__":
